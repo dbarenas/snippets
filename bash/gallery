@@ -1,0 +1,3 @@
+
+yum install imagemagic
+for i in $(cat list);do convert $i -resize '200x200' $i ; done 
